@@ -1,0 +1,62 @@
+{
+  "name": "voluptasquis",
+  "version": "1.0.0",
+  "description": "MetisMenu: Collapsible menu plugin with Vanilla-JS",
+  "main": "dist/metismenujs.js",
+  "module": "dist/metismenujs.esm.js",
+  "browser": "dist/metismenujs.min.js",
+  "unpkg": "dist/metismenujs.min.js",
+  "jsdelivr": "dist/metismenujs.min.js",
+  "typings": "./dist/types/index.d.ts",
+  "types": "dist/types/index.d.ts",
+  "sass": "scss/metismenujs.scss",
+  "style": "dist/metismenujs.css",
+  "files": [
+    "dist",
+    "src",
+    "scss"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/types/metismenujs.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json",
+    "./sass": "./scss/metismenujs.scss",
+    "./style": "./dist/metismenujs.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JavonteBeahan/voluptasquis.git"
+  },
+  "keywords": [
+    "nostrum",
+    "ut",
+    "exercitationem",
+    "quisquam",
+    "quos"
+  ],
+  "author": "DejaPowlowski",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.8.2",
+    "rollup": "^3.9.1",
+    "sass": "^1.57.1",
+    "terser": "^5.16.1",
+    "typescript": "^4.9.4"
+  },
+  "homepage": "https://github.com/JavonteBeahan/voluptasquis.git"
+}
